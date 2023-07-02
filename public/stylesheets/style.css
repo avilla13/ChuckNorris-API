@@ -6,3 +6,19 @@ body {
 a {
   color: #00B7FF;
 }
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#joke-display {
+  text-align: center;
+  border: solid black 2px;
+  padding: 3px;
+}
+button {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
