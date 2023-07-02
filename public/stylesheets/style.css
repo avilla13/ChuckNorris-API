@@ -13,12 +13,16 @@ p {
   text-align: center;
 }
 #joke-display {
+  font-size: 20px;
   text-align: center;
-  border: solid black 2px;
-  padding: 3px;
+  border: solid rgb(1, 12, 163) 1px;
+  padding: 5px;
 }
 button {
   margin: 0 auto;
   text-align: center;
   padding: 5px;
+}
+form {
+  text-align: center;
 }
