@@ -13,13 +13,14 @@ p {
   text-align: center;
 }
 #joke-display {
+  color: blue;
   font-size: 20px;
   text-align: center;
-  border: solid rgb(1, 12, 163) 1px;
+  border: dashed rgb(1, 12, 163) 1px;
   padding: 5px;
 }
 button {
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
   padding: 5px;
 }

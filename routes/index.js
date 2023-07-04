@@ -8,7 +8,7 @@ router.get('/', async function(req, res, next) {
   const joke = await fetch(`${ROOT_URL}/random`)
   .then(response => response.json())
   .then(joke => {
-    res.render('index', { title: 'Chuck Norris Jokes', joke });
+    res.render('index', { title: 'Chuck Norris Facts', joke });
   })
 });
 
